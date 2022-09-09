@@ -63,6 +63,12 @@
                     <i class="fa fa-calendar"></i> {{ blog.date }}
                   </span>
                   <span> <i class="fa fa-tags"></i> {{ blog.tag }} </span>
+                  <div class="selectWrapper-switch-lang">
+                    <select class="selectBox" name="lang" v-model="lang">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                  </select>
+                  </div>
                 </div>
                 <!-- {/* Meta Ends */} -->
 
