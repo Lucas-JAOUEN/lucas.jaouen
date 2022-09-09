@@ -106,7 +106,7 @@ import blogMixin from "@/mixin/blog-mixin";
 // import fr from '@/fr.js';
 
 export default {
-  name: "FancyBlogs",
+  name: "FancyBlogs",  
   mixins: [blogMixin],
   data() {
     return {
