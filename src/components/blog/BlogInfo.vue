@@ -63,12 +63,12 @@
                     <i class="fa fa-calendar"></i> {{ blog.date }}
                   </span>
                   <span> <i class="fa fa-tags"></i> {{ blog.tag }} </span>
-                  <div class="selectWrapper-switch-lang">
+                  <!-- <div class="selectWrapper-switch-lang">
                     <select class="selectBox" name="lang" v-model="lang">
-                    <option value="en">English</option>
-                    <option value="fr">French</option>
+                    <option value="blogs">English</option>
+                    <option value="blogsfr">French</option>
                   </select>
-                  </div>
+                  </div> -->
                 </div>
                 <!-- {/* Meta Ends */} -->
 
@@ -108,22 +108,27 @@
 
 <script>
 import blogMixin from "@/mixin/blog-mixin";
+import blogMixinFr from "@/mixin/blog-mixinfr";
 // import en from '@/en.js';
 // import fr from '@/fr.js';
 
 export default {
   name: "FancyBlogs",  
-  mixins: [blogMixin],
+  mixins: [blogMixin, blogMixinFr],
   data() {
     return {
       blogQuote: require(`@/assets/images/blog/quote.svg`),
       blog: {},
+      lang: "blogs"
     };
   },
   methods: {
     handleBlogItem(id) {
       this.blog = this.blogs.find((item) => item.id == id);
     },
+    translate(prop) {
+      return this[this.lang][prop];
+    }
   },
 };
 </script>

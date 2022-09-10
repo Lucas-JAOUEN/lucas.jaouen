@@ -1,11 +1,11 @@
 export default {
   data() {
     return {
-      blogs: [
+      blogsfr: [
         {
           id: 1,
           img: require(`@/assets/images/blog/blog-post-1.jpg`),
-          title: "A New Map Shows how Solar Winds Rain Down Everywhere on Mars",
+          title: "Une nouvelle maps !",
           commentor: "SCOTT ALAN JOHNSTON",
           date: "05 September 2022",
           tag: `universe, mars, solar, winds`,

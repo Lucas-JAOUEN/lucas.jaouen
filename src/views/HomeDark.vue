@@ -982,7 +982,7 @@
         </div>
         <div class="container">
           <!-- {/* Articles Starts */} -->
-          <div class="row pb-50">
+          <div class="row pb-50" style="justify-content : center">
             <BlogInfo />
           </div>
           <!-- {/* Articles Ends */} -->
