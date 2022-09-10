@@ -242,7 +242,7 @@
 
             <div class="col-12 mt-1">
               <a class="button" :href="`${publicPath}CV Lucas JAOUEN - English.pdf`" download>
-                <span class="button-text">Download CV</span>
+                <span class="button-text">{{translate('labelDownloadCV')}}</span>
                 <span class="button-icon fa fa-download"></span>
               </a>
             </div>
@@ -611,7 +611,7 @@
 
             <div class="col-12 mt-1">
               <a class="button" :href="`${publicPath}CV Lucas JAOUEN - English.pdf`" download>
-                <span class="button-text">Download CV</span>
+                <span class="button-text">{{translate('labelDownloadCV')}}</span>
                 <span class="button-icon fa fa-download"></span>
               </a>
             </div>

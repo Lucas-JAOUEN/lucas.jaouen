@@ -25,7 +25,7 @@ export default {
 
 
                 educationContentyear3: "Sept 2018 - Nov 2018",
-                educationContentdegree3: "DUT GMP (Universitary Diploma of Technology in Mécanic et Production option) ",
+                educationContentdegree3: "DUT GMP (Diplôme Universitaire de Technologie en Génie Mécanique et Productique) ",
                 educationContentinstitute3: "CNAM PARIS",
                 educationContentdetails3: `Réorientation dans le cadre de mon projet professionnel`,
 
@@ -103,6 +103,7 @@ export default {
                 placeholderEmail : "Votre email",
                 placeholderSubject : "Votre sujet",
                 placeholderMessage : "Votre message",
+                labelDownloadCV : "Télécharger CV",
                 alertmsg: "Message envoyé !",
 
                 blogs: [

@@ -109,6 +109,7 @@ export default {
                 placeholderEmail : "Your email",
                 placeholderSubject : "Your subject",
                 placeholderMessage : "Your message",
+                labelDownloadCV : "Download CV",
                 alertmsg: "Message envoyé !",
 
                 blogs: [
