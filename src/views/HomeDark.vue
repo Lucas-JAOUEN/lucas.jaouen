@@ -423,10 +423,10 @@
                   translate('educationContentyear1')
                 }}</span>
                 <h5 class="poppins-font text-uppercase">
-                  {{ translate('educationContentdegree1') }}
-                  <span class="place open-sans-font">{{ translate('educationContentinstitute1') }}</span>
+                  {{ translate('educationdegree1') }}
+                  <span class="place open-sans-font">{{ translate('educationinstitute1') }}</span>
                 </h5>
-                <p class="open-sans-font">{{ translate('educationContentdetails1') }}</p>
+                <p class="open-sans-font">{{ translate('educationdetails1') }}</p>
               </li>
               <li> <!-- v-for="education in educationContent" :key="education.id"-->
                 <div class="icon">
@@ -792,10 +792,10 @@
                   translate('educationContentyear1')
                 }}</span>
                 <h5 class="poppins-font text-uppercase">
-                  {{ translate('educationContentdegree1') }}
-                  <span class="place open-sans-font">{{ translate('educationContentinstitute1') }}</span>
+                  {{ translate('educationdegree1') }}
+                  <span class="place open-sans-font">{{ translate('educationinstitute1') }}</span>
                 </h5>
-                <p class="open-sans-font">{{ translate('educationContentdetails1') }}</p>
+                <p class="open-sans-font">{{ translate('educationdetails1') }}</p>
               </li>
               <li> <!-- v-for="education in educationContent" :key="education.id"-->
                 <div class="icon">
@@ -887,7 +887,7 @@
               <p class="open-sans-font custom-span-contact position-relative">
                 <i class="fa fa-envelope-open position-absolute"></i>
                 <span class="d-block">{{translate('mailMe')}}</span>
-                <a href="mailto:steve@mail.com">lucas.jaouen1@gmail.com</a>
+                <a href="lucas.jaouen1@gmail.com">lucas.jaouen1@gmail.com</a>
               </p>
               <!-- {/* End .custom-span-contact */} -->
 
@@ -999,6 +999,7 @@ import BlogInfo from "@/components/blog/BlogInfo.vue";
 import PortfolioInfo from "@/components/portfolio/PortfolioInfo.vue";
 import en from '@/en.js';
 import fr from '@/fr.js';
+import emailjs from "@emailjs/browser";
 
 export default {
   components: {
@@ -1009,6 +1010,10 @@ export default {
   mixins: [en, fr],
   data() {
     return {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
       lang: "en",
       heroContent: {
         heroImage: require(`@/assets/images/hero/dark.jpg`),
@@ -1060,7 +1065,36 @@ export default {
   methods: {
     translate(prop) {
       return this[this.lang][prop];
-    }
+    },
+    sendEmail() {
+      emailjs
+        .sendForm(
+          "service_k6v0b9o",
+          "template_cgehyq9",
+          this.$refs.form,
+          "FMR-Q_rbP4XvwGmCl",
+          {
+            name: this.name,
+            email: this.email,
+            subject: this.subject,
+            message: this.message,
+          }
+        )
+        .then(
+          (result) => {
+            console.log("SUCCESS!", result.text);
+            alert("Message sent !");
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+            alert("Message not sent", error);
+          }
+        );
+      this.name = "";
+      this.email = "";
+      this.subject = "";
+      this.message = "";
+    },
   }
 };
 </script>

@@ -2,8 +2,8 @@
   <div>
     <section class="banner text-center">
       <div class="content">
-        <h1>Tunis</h1>
-        <h2>Personal Portfolio VueJS 3 Template</h2>
+        <h1>Lucas</h1>
+        <h2>Personal Portfolio</h2>
       </div>
     </section>
     <!-- {/* End .banner */} -->
@@ -59,7 +59,7 @@
           You are at the right step now
         </h6>
         <h3 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
-          Purchase Tunis & Build Your Faster
+          Purchase Lucas & Build Your Faster
           <span class="theme-color">VueJS 3</span> &amp;
           <span class="theme-color">Bootstrap 5 </span> Based Portfolio
           Template.
@@ -79,7 +79,7 @@
       <!-- {/* End go_purchase */} -->
 
       <div class="text-center footer_copyright">
-        <h6>Tunis - Personal Portfolio VueJS 3 Template</h6>
+        <h6>Lucas - Personal Portfolio</h6>
         <h5>
           &copy; {{ new Date().getFullYear() }} Designed with
           <span class="heart">&#10084;</span> by

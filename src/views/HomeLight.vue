@@ -790,10 +790,10 @@
                   translate('educationContentyear1')
                 }}</span>
                 <h5 class="poppins-font text-uppercase">
-                  {{ translate('educationContentdegree1') }}
-                  <span class="place open-sans-font">{{ translate('educationContentinstitute1') }}</span>
+                  {{ translate('educationdegree1') }}
+                  <span class="place open-sans-font">{{ translate('educationinstitute1') }}</span>
                 </h5>
-                <p class="open-sans-font">{{ translate('educationContentdetails1') }}</p>
+                <p class="open-sans-font">{{ translate('educationdetails1') }}</p>
               </li>
               <li> <!-- v-for="education in educationContent" :key="education.id"-->
                 <div class="icon">
@@ -885,7 +885,7 @@
               <p class="open-sans-font custom-span-contact position-relative">
                 <i class="fa fa-envelope-open position-absolute"></i>
                 <span class="d-block">{{translate('mailMe')}}</span>
-                <a href="mailto:steve@mail.com">lucas.jaouen1@gmail.com</a>
+                <a href="lucas.jaouen1@gmail.com">lucas.jaouen1@gmail.com</a>
               </p>
               <!-- {/* End .custom-span-contact */} -->
 
@@ -1069,10 +1069,10 @@ export default {
     sendEmail() {
       emailjs
         .sendForm(
-          "service_n4mkhz9",
-          "template_ugoztxr",
+          "service_k6v0b9o",
+          "template_cgehyq9",
           this.$refs.form,
-          "user_vYmDSd9PwIuRXUQEDjYwN",
+          "FMR-Q_rbP4XvwGmCl",
           {
             name: this.name,
             email: this.email,

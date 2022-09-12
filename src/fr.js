@@ -14,9 +14,9 @@ export default {
                 moi: "Moi",
                 apropos: "A propos de",
                 educationContentyear1: "Sept 2021 - Aujourd'hui",
-                educationContentdegree1: "Diplôme d'ingénieur informatique et multimédia",
-                educationContentinstitute1: "CNAM ENJMIN",
-                educationContentdetails1: `Actuellement, je suis en deuxième année de mon diplôme d'ingénieur en Informatique et Multimédia`,
+                educationdegree1: "Diplôme d'ingénieur informatique et multimédia",
+                educationinstitute1: "CNAM ENJMIN",
+                educationdetails1: `Actuellement, je suis en deuxième année de mon diplôme d'ingénieur en Informatique et Multimédia`,
 
                 educationContentyear2: "Sept 2019 - Sept 2021",
                 educationContentdegree2: "DUT INFO (Diplôme Universitaire de Technologie en Informatique)",
