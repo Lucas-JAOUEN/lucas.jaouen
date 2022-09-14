@@ -21,8 +21,8 @@
           <h3>{{ item.title }}</h3>
         </div>
         <div class="entry-content open-sans-font">
-          <p>
-            {{ item.description1.slice(0, 110) }}
+          <p> 
+            {{ item.description1.slice(0, 143) }} <!-- nombre de lettres en aperçu de description blog -->
           </p>
         </div>
       </div>
@@ -58,15 +58,15 @@
                 <!-- {/* Meta Starts */} -->
 
                 <div class="meta open-sans-font">
-                  <span> <i class="fa fa-user"></i> {{ blog.commentor }} </span>
+                  <span> <i class="fa fa-user"></i> {{ blog.commentor}} </span>
                   <span class="date">
                     <i class="fa fa-calendar"></i> {{ blog.date }}
                   </span>
                   <span> <i class="fa fa-tags"></i> {{ blog.tag }} </span>
                   <!-- <div class="selectWrapper-switch-lang">
                     <select class="selectBox" name="lang" v-model="lang">
-                    <option value="blogs">English</option>
-                    <option value="blogsfr">French</option>
+                    <option value="blogMixin">English</option>
+                    <option value="blogMixinFr">French</option>
                   </select>
                   </div> -->
                 </div>
@@ -89,10 +89,58 @@
                   </div>
                   <p>
                     {{ blog.description3 }}
+                  </p><br/>
+                  <h4 class="title_gras">
+                    {{ blog.description4 }}
+                  </h4>
+                  <p>
+                    {{ blog.description5 }}
                   </p>
                   <p>
-                    {{ blog.description4 }}
+                    {{ blog.description6 }}
                   </p>
+                  <p>
+                    {{ blog.description7 }}
+                  </p>
+                  <p>
+                    {{ blog.description8 }}
+                  </p>
+                  <p>
+                    {{ blog.description9 }}
+                  </p>
+                  <p>
+                    {{ blog.description10 }}
+                  </p><br/>
+                  <h4 class="title_gras">
+                    {{ blog.description11 }}
+                  </h4>
+                  <p>
+                    {{ blog.description12 }}
+                  </p>
+                  <p>
+                    {{ blog.description13 }}
+                  </p><br/>
+                  <h4 class="title_gras">
+                    {{ blog.description14 }}
+                  </h4>
+                  <p>
+                    {{ blog.description15 }}
+                  </p>
+                  <p>
+                    {{ blog.description16 }}
+                  </p><br/>
+                  <h4 class="title_gras">
+                    {{ blog.description17 }}
+                  </h4>
+                  <p>
+                    {{ blog.description18 }}
+                  </p>
+                  <p>
+                    {{ blog.description19 }}
+                  </p>
+                  <!-- <p>
+                    {{ blog.description20 }}
+                  </p> -->
                 </div>
                 <!-- {/* Article Content Ends */} -->
               </article>
