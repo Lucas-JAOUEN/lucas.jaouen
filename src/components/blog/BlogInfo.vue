@@ -119,24 +119,38 @@
                   </p>
                   <p>
                     {{ blog.description13 }}
-                  </p><br/>
-                  <h4 class="title_gras">
-                    {{ blog.description14 }}
-                  </h4>
-                  <p>
-                    {{ blog.description15 }}
                   </p>
+                  <p>
+                    {{ blog.description14 }}
+                  </p>
+                  <br/>
+                  <h4 class="title_gras">
+                    {{ blog.description15 }}
+                  </h4>
                   <p>
                     {{ blog.description16 }}
-                  </p><br/>
-                  <h4 class="title_gras">
-                    {{ blog.description17 }}
-                  </h4>
-                  <p>
-                    {{ blog.description18 }}
                   </p>
                   <p>
+                    {{ blog.description17 }}
+                  </p>
+                  <br/>
+                  <h4 class="title_gras">
+                    {{ blog.description18 }}
+                  </h4>
+                  <p>
                     {{ blog.description19 }}
+                  </p>
+                  <p>
+                    {{ blog.description20 }}
+                  </p><br/>
+                  <h4 class="title_gras">
+                    {{ blog.description21 }}
+                  </h4>
+                  <p>
+                    {{ blog.description22 }}
+                  </p>
+                  <p>
+                    {{ blog.description23 }}
                   </p>
                   <!-- <p>
                     {{ blog.description20 }}

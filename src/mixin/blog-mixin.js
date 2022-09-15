@@ -40,31 +40,43 @@ export default {
           description10:
             `Meanwhile Curiosity is no longer alone, it has been joined by the Perseverance rover  of the Mars 2020 mission since February 18, 2021 for the collection of samples and previously by the  InSight lander on November 26, 2018 which aims to study the internal structure of the red planet.`,
 
-          description11:
-            `Europe`,
+          description11:  
+            `Venus`,
 
           description12:
-            `Also in our solar system, there is another planet that intrigues scientists: Europa. One of Jupiter's 4 moons could well be another contender. There would be an ocean of liquid water under a mantle of ice as well as cryovolcanic activity. We can therefore imagine that  organic elements such as impacts of comets penetrating the liquid ocean couldint allow to have habitability criteria.`,
+            `Earth's other neighbor Venus could also harbor life. Indeed, a recent discovery of the presence of a molecule potentially linked to life in the atmosphere of Venus revives conjectures on the possibility of finding an extraterrestrial life form in our solar system.`,
 
           description13:
-            `This natural satellite intrigues the world so much that probes will be created to make observations: NASA's Europa Clipper probe under development and the European JUICE probe from 2030.`,
+            `This famous is a gaseous compound, phosphine (PH3). The presence of such a molecule, toxic for the majority of terrestrial beings, would have another connotation on Venus or Mars. This molecule being unstable in a gaseous environment where oxygen is present, no process, known to date, could explain the presence of phosphine except the continuous production of this gas by a biological activity.`,
 
           description14:
-            `Enceladus`,
+            `These discoveries are astonishing when we know that on this star the temperatures are extreme (more than 450°C near the surface). However, there is still one place where scientists suspect the presence of life: clouds. Very similar to those on Earth due to the altitude at which they are formed as well as the temperature and pressure conditions that allow all the nutrients and energy necessary for the development of micro-organisms to be found there.`,
 
           description15:
-            `Almost similar to Europa, Saturn's icy moon concentrates all the criteria necessary for the development of life (liquid water, organic molecules, energy, stable environment). Thanks to the American probe Cassini, in orbit from 2004 to 2017, it was discovered the existence of geysers of water vapor, salt in plumes, organic elements, methane, CO2. There would therefore be contact between the pockets of liquid water and the core of this icy moon, as on Earth.`,
+            `Europe`,
 
           description16:
-            `For the moment, no mission has yet seen the light of day because of the irregular rhythm  of appearance of geysers.`,
-          
+            `Also in our solar system, there is another planet that intrigues scientists: Europa. One of Jupiter's 4 moons could well be another contender. There would be an ocean of liquid water under a mantle of ice as well as cryovolcanic activity. We can therefore imagine that  organic elements such as impacts of comets penetrating the liquid ocean couldint allow to have habitability criteria.`,
+
           description17:
-            `Titan`,
+            `This natural satellite intrigues the world so much that probes will be created to make observations: NASA's Europa Clipper probe under development and the European JUICE probe from 2030.`,
 
           description18:
+            `Enceladus`,
+
+          description19:
+            `Almost similar to Europa, Saturn's icy moon concentrates all the criteria necessary for the development of life (liquid water, organic molecules, energy, stable environment). Thanks to the American probe Cassini, in orbit from 2004 to 2017, it was discovered the existence of geysers of water vapor, salt in plumes, organic elements, methane, CO2. There would therefore be contact between the pockets of liquid water and the core of this icy moon, as on Earth.`,
+
+          description20:
+            `For the moment, no mission has yet seen the light of day because of the irregular rhythm  of appearance of geysers.`,
+          
+          description21:
+            `Titan`,
+
+          description22:
             `Saturn is home to many surprises in terms of potential habitability criteria on another of its  "Titan" satellites. This other satellite of Saturn is indeed the only other place in the solar system where the atmosphere is composed of nitrogen and organic chemistry identical to Earth.`,
           
-          description19:
+          description23:
             `However, Titan would be like an Earth in its earlydays. Indeed, there is water on this planet, but it seems trapped between two layers of ice unlike Europa and Enceladus. Who knows how long it will take for these ice sheets to melt. The layer delimiting the core of the water could be made thinner over time, allowing the water to come into contact with the rock of the core, a source of energy.`,
         
           },
