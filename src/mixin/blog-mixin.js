@@ -17,7 +17,7 @@ export default {
           `Recent discovery shows that not so far from us there would be planets with similar living conditions including of course the planet neighboring ours Mars.`,
           
           description4:
-            "March",
+            "Mars",
 
           description5:
             `The mystery of life on Mars does not date from today, indeed since the launch of Curiosity on August 6, 2012 many discoveries have been made upsetting the world.
