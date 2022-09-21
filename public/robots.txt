@@ -1,1 +1,0 @@
-User-agent: * Disallow: /doc/ Disallow: /sitemap/ Disallow: /rss.xml Disallow: /sitemap.xml Disallow: *error_type=reservation Disallow: /client/* Disallow: *PageSpeed=noscript Disallow: /tracker
