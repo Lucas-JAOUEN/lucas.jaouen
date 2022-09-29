@@ -88,7 +88,8 @@
           {{translate('name')}}
           <span>{{translate('metier')}}</span>
         </h1>
-        <p class="open-sans-font">{{translate('bio')}}</p>
+        <p class="open-sans-font" style="margin-bottom : 0px">{{translate('bio')}}</p>
+        <p class="open-sans-font" style="margin-top : 0px">{{translate('bio2')}}</p>
         <button
           class="button"
           data-bs-toggle="modal"

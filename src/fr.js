@@ -8,8 +8,9 @@ export default {
                 mon: "Mon",
                 works: "Travaux",
                 name: "Lucas JAOUEN.",
-                metier: "Ingénieur Front-End",
-                bio: "Je suis un concepteur de sites Web et un développeur front-end basé en France, axé sur la création d'expériences propres et conviviales. Je suis passionné par la création d'excellents logiciels qui améliorent la vie de ceux qui m'entourent.",
+                metier: "A la recherche d'un stage",
+                bio: "Je suis actuellement un diplôme d'ingénieur dans mon école : le Cnam ENJMIN à Angoulême, France qui est l'Ecole Nationale des Jeux Vidéo et du Multimédia.",//Je suis un concepteur de sites Web et un développeur front-end basé en France, axé sur la création d'expériences propres et conviviales. Je suis passionné par la création d'excellents logiciels qui améliorent la vie de ceux qui m'entourent.
+                bio2: "Je suis en recherche active d'un stage à l'étranger d'au moins 8 semaines pour l'été 2023.",
                 labelBtn: "en savoir plus sur moi",
                 moi: "Moi",
                 apropos: "A propos de",

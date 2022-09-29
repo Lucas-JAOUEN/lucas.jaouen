@@ -8,8 +8,9 @@ export default {
                 mon: "My",
                 works: "Works",
                 name: "I'm Lucas JAOUEN.",
-                metier: "Engineer Front-end",
-                bio: "I'm a French based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.",
+                metier: "Looking for an internship",
+                bio: "I'm working on a Master's Degree in Engineering in my school : the Cnam ENJMIN at Angoulême, France which is the National School of Video Games and Multimedia. I am currently looking for an internship abroad of at least 8 weeks for the summer of 2023.", //I'm a French based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+                // bio2: "I am currently looking for an internship abroad of at least 8 weeks for the summer of 2023.",
                 labelBtn: "more about me",
                 moi: "Me",
                 apropos: "About",
