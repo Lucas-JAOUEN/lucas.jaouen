@@ -4,7 +4,17 @@ export default {
       portfolios: [
         {
           id: 1,
-          img: require(`@/assets/images/portfolio/project-1.jpg`),
+          img: require(`@/assets/images/portfolio/project-1.png`),
+          title: "Sound Porject",
+          project: "Project STORM",
+          client: "ENJMIN, G4F",
+          language: "Audacity",
+          preview: "LISTEN HERE",
+          previewLink: "https://youtu.be/CPiaIZNXyEk", //https://drive.google.com/file/d/165O7YgeXjRKBJB5In93o9w00Yj2_NzTZ/view?usp=sharing
+        },
+        {
+          id: 2,
+          img: require(`@/assets/images/portfolio/project-2.jpg`),
           title: "PINBALL PROJECT",
           project: "Competitive Pinball 1vs1",
           client: "ENJMIN",
@@ -12,19 +22,9 @@ export default {
           preview: "Pinball Game",
           previewLink: "https://lucasjaouen.itch.io/pingoal",
         },
-        // {
-        //   id: 1,
-        //   img: require(`@/assets/images/portfolio/project-1.jpg`),
-        //   title: "WEBSITE PROJECT",
-        //   project: "Parallax Website",
-        //   client: "Universe Secrets",
-        //   language: "Vue, HTML, CSS, JS",
-        //   preview: "UniverseSecretsBlog",
-        //   previewLink: "https://universesecrets.github.io/galaxy_blog/",
-        // },
         {
-          id: 2,
-          img: require(`@/assets/images/portfolio/project-2.jpg`),
+          id: 3,
+          img: require(`@/assets/images/portfolio/project-3.jpg`),
           title: "ARDUINO PROJECT",
           project: "Electronic Dice",
           client: "ENJMIN",
@@ -33,8 +33,8 @@ export default {
           previewLink: "https://youtube.com/shorts/31h9lt00-Fs?feature=share",
         },
         {
-          id: 3,
-          img: require(`@/assets/images/portfolio/project-3.jpg`),
+          id: 4,
+          img: require(`@/assets/images/portfolio/project-4.jpg`),
           title: "Multimedia PROJECT",
           project: "Immersive Intercative Story",
           client: "CONSTANT Thomas",
