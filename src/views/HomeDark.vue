@@ -888,7 +888,7 @@
               <p class="open-sans-font custom-span-contact position-relative">
                 <i class="fa fa-envelope-open position-absolute"></i>
                 <span class="d-block">{{translate('mailMe')}}</span>
-                <a href="lucas.jaouen1@gmail.com">lucas.jaouen1@gmail.com</a>
+                <a href="mailto: lucas.jaouen1@gmail.com">lucas.jaouen1@gmail.com</a>
               </p>
               <!-- {/* End .custom-span-contact */} -->
 
